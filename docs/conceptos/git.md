@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # GIT
 
-Antes de ir directo a cada una la estrategia de **branching** y **merging**, creo que es oportuno introducir uno de los conceptos más importantes.
+Antes de ir directo a cada una de las estrategia de **branching** y **merging**, creo que es oportuno introducir uno de los conceptos más importantes.
 
 ## ¿Qué es GIT?
 
