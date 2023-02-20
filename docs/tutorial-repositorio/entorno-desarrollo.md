@@ -26,6 +26,8 @@ Nos aseguramos de que el botón diga `Create codespace on dev`. Y damos click.
 
 :::tip Trabajar en el repositorio de manera local
 Si estás más acostumbrado y prefieres trabajar en el repositorio clonándolo de manera local puedes hacerlo libremente. Pero recomendamos utilizar el entorno que fue preparado en el **Codespaces**.
+
+Recuerda que para poder clonar de manera local el repositorio debes tener configurada en tu computador **únicamente** tu **cuenta institucional** de Github, de lo contrario el sistema no te dejará clonar el repositorio.
 :::
 
 ## Tercer Paso
