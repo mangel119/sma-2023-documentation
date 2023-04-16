@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "AcademIA",
   tagline: "Documentación para el proyecto de curso para el periodo 2023_01",
-  favicon: "img/marca.ico",
+  favicon: "img/favicon-dark.ico",
 
   // Set the production url of your site here
   url: "https://github.com",
@@ -71,8 +71,8 @@ const config = {
         // title: "My Site",
         logo: {
           alt: "My Site Logo",
-          src: "img/academia-logo.svg",
-          srcDark: "img/academia-logo-dark.svg",
+          src: "img/logo4.png",
+          srcDark: "img/logo3.png",
         },
         items: [
           {
@@ -80,6 +80,12 @@ const config = {
             docId: "intro",
             position: "left",
             label: "Tutorial",
+          },
+          {
+            type: "doc",
+            docId: "/category/cambios---tercer-corte",
+            position: "left",
+            label: "Cambios",
           },
           {
             href: "https://github.com/jvpradilla/SMA_2023_01",

@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Documentación de ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Documentación para el desarrollo del proyecto de AcademIA para la asignatura SMA 2023-01"
     >
       <HomepageHeader />
       <main>
