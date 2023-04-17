@@ -48,7 +48,20 @@ Deben prestar mucha atención que el email utilizado en el primer paso debe ser 
 Con estos pasos ya pueden iniciar sesión en la plataforma.
 
 ## Utilizar la información del usuario que inició sesión
-Se agregaron nuevos Client de supabase, en el siguiente video se muestra como crear una API 
-que traiga la información de la base de datos dependiendo del usuario que inició sesión.
+Se agregaron nuevos Client de supabase, 
+esto permite obtener acceso a la información de la base de datos
+desde el usuario que inició sesión.
+
+Aquí pueden ver un ejemplo aplicado en el proyecto de una API que trae de la base de datos
+la información de los cursos a los que pertenece el usuario que inició sesión.
+![ExampleAPI](./img/example.png)
+Se importa el `createClient` de *supabase-server* para crear el cliente desde el servidor y no desde el navegador del usuario. 
+Dentro de la función creamos el cliente y obtenemos la información de la sesión dentro de un
+objeto `{ data: { session } }`.
+Cuando hacemos la consulta a la base de datos de supabase podemos compararlo con el email
+del usuario que inició sesión por medio de `session?.user.email`.
+Esto nos trae la información solo relacionada al usuario actual.
+
+En el siguiente video pueden encontrar más detalles de esta vinculación.
 
 https://youtu.be/Y2nPEWrSfic?t=1587
