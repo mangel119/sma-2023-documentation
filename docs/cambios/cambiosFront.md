@@ -3,6 +3,10 @@ sidebar_position: 2
 ---
 # Cambios en el Front End
 
+## Tipografía
+Se agregó en los estilos globales la tipografía Inter (regular 400 y bold 700).
+Dependiendo de las necesidades y de las indicaciones de diseño se pueden agregar más variantes de la fuente.
+
 ## API Metadata
 Next 13 cambió la manera de trabajar con la Metadata, anteriormente se tenía un componente Head que contenía esta información, ahora es una *constante* que puede estar ubicada en los archivos de Layout o de Page.
 

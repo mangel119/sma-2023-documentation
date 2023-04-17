@@ -22,3 +22,37 @@ Se maneja de una manera diferente a cómo estaba antes con el request.method y l
 Esta nueva manera se maneja a través de async functions que son los request handlers.
 
 Pueden encontrar cómo integrar estos request handlers al proyecto e información adicional en la documentación oficial de Next https://beta.nextjs.org/docs/api-reference/file-conventions/route
+
+## Cambios en las API
+Con esta nueva manera dinámica de crear las API se revisaron y modificaron algunas.
+Estos han sido los cambios hasta ahora, en un futuro habrán y se estará hablando con los diferentes back para la migración.
+
+1. course/posts/activities -> Pendiente (Ruta Dinámica del curso)
+2. course/posts/publications -> Pendiente (Ruta Dinámica del curso)
+3. course/courseParticipant -> Pendiente (Ruta Dinámica del curso)
+4. course/courses -> app/api/course (GET y POST) | Pendiente (DELETE y PATCH Ruta Dinámica del Curso)
+5. course/coursesById -> Pendiente (Ruta Dinámica del curso)
+6. course/getCourseParticipant -> Eliminada (Repetida con la 3)
+
+7. crud/crudChat -> ?
+8. crud/crudMessage -> ?
+9. crud/crudParticipantChat -> ?
+10. crud/messagesFiles -> ?
+
+11. mainClasses/AgregarNM -> Eliminada (Repetida con 25, No estamos usando Prisma, No fue aprobado)
+12. mainClasses/ChatM -> ?
+13. mainClasses/Course -> ?
+14. mainClasses/hello -> Eliminada
+15. mainClasses/ia -> Pendiente
+16. mainClasses/iaMessage -> ?
+17. mainClasses/materiales -> Eliminada (Repetida con 25, No estamos usando Prisma, No fue aprobado)
+18. mainClasses/messageM -> ?
+19. mainClasses/Participant -> ?
+20. mainClasses/student -> ?
+21. mainClasses/teacher -> ?
+
+22. student/iaMessage -> ?
+23. student/studentCourse -> Eliminada (Repetida con la 3)
+
+24. teacher/MyCourses -> Eliminada (Repetida con la 3)
+25. teacher/postfiles -> Pendiente (Post)
