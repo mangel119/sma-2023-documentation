@@ -18,7 +18,7 @@ Sin embargo desde infraestructura se crearon estos usuarios de prueba para poder
 **email** supero@profesor.com
 **contraseña** profesor123
 ### estudiante
-**email** estudiante@estudiante.com
+**email** hamilson@estudiante.com
 **contraseña** estudiante123
 
 ## Crear usuarios
